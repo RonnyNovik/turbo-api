@@ -1,0 +1,19 @@
+{
+  "decorators": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "sortKeys": true,
+  "importOrderParserPlugins": ["typescript", "decorators-legacy"],
+  "importOrder": [
+    "^@*$",
+    "^[a-z0-9]+(-[a-z0-9]+)*$",
+    "src/schemas/(.*)$",
+    "src/consts/(.*)$",
+    "src/utils/(.*)$",
+    "src/*/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
