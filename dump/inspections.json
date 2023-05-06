@@ -1,0 +1,895 @@
+[{
+  "_id": {
+    "$oid": "6430bb6d3f19485889f5554e"
+  },
+  "inspectionNumber": "1003",
+  "customerName": "qweqwe",
+  "customerAddress": "123123",
+  "customerPhone": "3423423423",
+  "carNumber": "123123",
+  "carModel": "3123123",
+  "carYear": 3123,
+  "engineNumber": "1231231",
+  "chassisNumber": "12312",
+  "chassisType": "שלדת מרכב",
+  "kilometrage": 123123,
+  "tester": {
+    "name": "מארק",
+    "code": "777"
+  },
+  "electronicsIncluded": false,
+  "results": [
+    {
+      "_id": "63d5971dcc79d60c03aa4629",
+      "date_created": "2023-01-28T21:43:57.302Z",
+      "name": "מערכת המנוע",
+      "position": 1,
+      "date_updated": "2023-01-29T20:11:44.281Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d301cc79d60c03aa462c",
+      "date_created": "2023-01-29T20:11:45.377Z",
+      "name": "מערכת הקירור",
+      "position": 2,
+      "date_updated": "2023-01-29T20:19:00.705Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqweqwe",
+          "priority": null
+        },
+        {
+          "name": "qweqweqweq",
+          "priority": null
+        },
+        {
+          "name": "weqwe",
+          "priority": null
+        },
+        {
+          "name": "qwe",
+          "priority": null
+        },
+        {
+          "name": "qe",
+          "priority": null
+        },
+        {
+          "name": "q",
+          "priority": null
+        },
+        {
+          "name": "weqw",
+          "priority": null
+        },
+        {
+          "name": "eqw",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d4b5cc79d60c03aa462d",
+      "date_created": "2023-01-29T20:19:01.868Z",
+      "name": "מערכת הדלק",
+      "position": 3,
+      "date_updated": "2023-01-29T20:20:31.944Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqeqeqe",
+          "priority": null
+        },
+        {
+          "name": "qwe",
+          "priority": null
+        },
+        {
+          "name": "q",
+          "priority": null
+        },
+        {
+          "name": "eq",
+          "priority": null
+        },
+        {
+          "name": "we",
+          "priority": null
+        },
+        {
+          "name": "wq",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d505cc79d60c03aa462e",
+      "date_created": "2023-01-29T20:20:21.065Z",
+      "name": "מערכת ההצתה",
+      "position": 4,
+      "date_updated": "2023-01-29T20:21:16.762Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d541cc79d60c03aa462f",
+      "date_created": "2023-01-29T20:21:21.322Z",
+      "name": "מערכת הפליטה",
+      "position": 5,
+      "date_updated": "2023-01-29T20:22:20.432Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d57dcc79d60c03aa4630",
+      "date_created": "2023-01-29T20:22:21.833Z",
+      "name": "מערכת ההיגוי וסרן",
+      "position": 6,
+      "date_updated": "2023-01-29T20:26:57.802Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d693cc79d60c03aa4631",
+      "date_created": "2023-01-29T20:26:59.113Z",
+      "name": "שלדת מרכב",
+      "position": 7,
+      "date_updated": "2023-01-29T20:58:57.082Z",
+      "hasPriorities": true,
+      "results": []
+    },
+    {
+      "_id": "63d6da00cc79d60c03aa4632",
+      "date_created": "2023-01-29T20:41:36.823Z",
+      "name": "שלדה נפרדת",
+      "position": 8,
+      "date_updated": "2023-01-29T21:01:03.884Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6db0ccc79d60c03aa4633",
+      "date_created": "2023-01-29T20:46:04.019Z",
+      "name": "מערכת החשמל",
+      "position": 9,
+      "date_updated": "2023-01-29T20:59:08.739Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dbd2cc79d60c03aa4634",
+      "date_created": "2023-01-29T20:49:22.201Z",
+      "name": "מערכת העברת הכוח",
+      "position": 10,
+      "date_updated": "2023-01-29T20:59:09.390Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dc99cc79d60c03aa4635",
+      "date_created": "2023-01-29T20:52:41.698Z",
+      "name": "מחוונים",
+      "position": 11,
+      "date_updated": "2023-01-29T20:53:59.878Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dce9cc79d60c03aa4636",
+      "date_created": "2023-01-29T20:54:01.143Z",
+      "name": "הערות",
+      "position": 12,
+      "date_updated": "2023-01-29T20:54:40.137Z",
+      "hasPriorities": false,
+      "results": []
+    }
+  ],
+  "date_created": {
+    "$date": {
+      "$numberLong": "1680915309834"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6430bb903f19485889f55554"
+  },
+  "inspectionNumber": "1002",
+  "customerName": "qeqeqeqe",
+  "customerAddress": "123123123",
+  "customerPhone": "1231231231",
+  "carNumber": "31231231",
+  "carModel": "12312312",
+  "carYear": 1231,
+  "engineNumber": "31231",
+  "chassisNumber": "231312",
+  "chassisType": "שלדת מרכב",
+  "kilometrage": 3123123,
+  "tester": {
+    "name": "מארק",
+    "code": "777"
+  },
+  "electronicsIncluded": false,
+  "results": [
+    {
+      "_id": "63d5971dcc79d60c03aa4629",
+      "date_created": "2023-01-28T21:43:57.302Z",
+      "name": "מערכת המנוע",
+      "position": 1,
+      "date_updated": "2023-01-29T20:11:44.281Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqweqweqweqwe",
+          "priority": null
+        },
+        {
+          "name": "qeqw",
+          "priority": null
+        },
+        {
+          "name": "qweqw",
+          "priority": null
+        },
+        {
+          "name": "qweqweqwe",
+          "priority": null
+        },
+        {
+          "name": "qweqwe",
+          "priority": null
+        },
+        {
+          "name": "qweqweqe",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d301cc79d60c03aa462c",
+      "date_created": "2023-01-29T20:11:45.377Z",
+      "name": "מערכת הקירור",
+      "position": 2,
+      "date_updated": "2023-01-29T20:19:00.705Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d4b5cc79d60c03aa462d",
+      "date_created": "2023-01-29T20:19:01.868Z",
+      "name": "מערכת הדלק",
+      "position": 3,
+      "date_updated": "2023-01-29T20:20:31.944Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d505cc79d60c03aa462e",
+      "date_created": "2023-01-29T20:20:21.065Z",
+      "name": "מערכת ההצתה",
+      "position": 4,
+      "date_updated": "2023-01-29T20:21:16.762Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d541cc79d60c03aa462f",
+      "date_created": "2023-01-29T20:21:21.322Z",
+      "name": "מערכת הפליטה",
+      "position": 5,
+      "date_updated": "2023-01-29T20:22:20.432Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d57dcc79d60c03aa4630",
+      "date_created": "2023-01-29T20:22:21.833Z",
+      "name": "מערכת ההיגוי וסרן",
+      "position": 6,
+      "date_updated": "2023-01-29T20:26:57.802Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqweqwewqe",
+          "priority": null
+        },
+        {
+          "name": "asdfa",
+          "priority": null
+        },
+        {
+          "name": "fasfdfww",
+          "priority": null
+        },
+        {
+          "name": "ffwfwfwf",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d693cc79d60c03aa4631",
+      "date_created": "2023-01-29T20:26:59.113Z",
+      "name": "שלדת מרכב",
+      "position": 7,
+      "date_updated": "2023-01-29T20:58:57.082Z",
+      "hasPriorities": true,
+      "results": []
+    },
+    {
+      "_id": "63d6da00cc79d60c03aa4632",
+      "date_created": "2023-01-29T20:41:36.823Z",
+      "name": "שלדה נפרדת",
+      "position": 8,
+      "date_updated": "2023-01-29T21:01:03.884Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqweqweqweqweweqwe",
+          "priority": null
+        },
+        {
+          "name": "qweqweqwe",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6db0ccc79d60c03aa4633",
+      "date_created": "2023-01-29T20:46:04.019Z",
+      "name": "מערכת החשמל",
+      "position": 9,
+      "date_updated": "2023-01-29T20:59:08.739Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dbd2cc79d60c03aa4634",
+      "date_created": "2023-01-29T20:49:22.201Z",
+      "name": "מערכת העברת הכוח",
+      "position": 10,
+      "date_updated": "2023-01-29T20:59:09.390Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dc99cc79d60c03aa4635",
+      "date_created": "2023-01-29T20:52:41.698Z",
+      "name": "מחוונים",
+      "position": 11,
+      "date_updated": "2023-01-29T20:53:59.878Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dce9cc79d60c03aa4636",
+      "date_created": "2023-01-29T20:54:01.143Z",
+      "name": "הערות",
+      "position": 12,
+      "date_updated": "2023-01-29T20:54:40.137Z",
+      "hasPriorities": false,
+      "results": []
+    }
+  ],
+  "date_created": {
+    "$date": {
+      "$numberLong": "1680915344315"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6430bbad3f19485889f5555a"
+  },
+  "inspectionNumber": "1001",
+  "customerName": "sadascvas",
+  "customerAddress": "123123",
+  "customerPhone": "232312",
+  "carNumber": "1312312",
+  "carModel": "31231",
+  "carYear": 3123,
+  "engineNumber": "312312",
+  "chassisNumber": "312312",
+  "chassisType": "שלדת מרכב",
+  "kilometrage": 312,
+  "tester": {
+    "name": "מארק",
+    "code": "777"
+  },
+  "electronicsIncluded": false,
+  "results": [
+    {
+      "_id": "63d5971dcc79d60c03aa4629",
+      "date_created": "2023-01-28T21:43:57.302Z",
+      "name": "מערכת המנוע",
+      "position": 1,
+      "date_updated": "2023-01-29T20:11:44.281Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "qweqweqweqwe",
+          "priority": null
+        },
+        {
+          "name": "qweqwe",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d301cc79d60c03aa462c",
+      "date_created": "2023-01-29T20:11:45.377Z",
+      "name": "מערכת הקירור",
+      "position": 2,
+      "date_updated": "2023-01-29T20:19:00.705Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d4b5cc79d60c03aa462d",
+      "date_created": "2023-01-29T20:19:01.868Z",
+      "name": "מערכת הדלק",
+      "position": 3,
+      "date_updated": "2023-01-29T20:20:31.944Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d505cc79d60c03aa462e",
+      "date_created": "2023-01-29T20:20:21.065Z",
+      "name": "מערכת ההצתה",
+      "position": 4,
+      "date_updated": "2023-01-29T20:21:16.762Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d541cc79d60c03aa462f",
+      "date_created": "2023-01-29T20:21:21.322Z",
+      "name": "מערכת הפליטה",
+      "position": 5,
+      "date_updated": "2023-01-29T20:22:20.432Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d57dcc79d60c03aa4630",
+      "date_created": "2023-01-29T20:22:21.833Z",
+      "name": "מערכת ההיגוי וסרן",
+      "position": 6,
+      "date_updated": "2023-01-29T20:26:57.802Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d693cc79d60c03aa4631",
+      "date_created": "2023-01-29T20:26:59.113Z",
+      "name": "שלדת מרכב",
+      "position": 7,
+      "date_updated": "2023-01-29T20:58:57.082Z",
+      "hasPriorities": true,
+      "results": [
+        {
+          "name": "qweqweqweqwe",
+          "priority": "ש:"
+        },
+        {
+          "name": "qweqweqwe",
+          "priority": "ש:"
+        },
+        {
+          "name": "qweqwewqe",
+          "priority": "נ:"
+        },
+        {
+          "name": "qweqweqweqwew",
+          "priority": "ג:"
+        }
+      ]
+    },
+    {
+      "_id": "63d6da00cc79d60c03aa4632",
+      "date_created": "2023-01-29T20:41:36.823Z",
+      "name": "שלדה נפרדת",
+      "position": 8,
+      "date_updated": "2023-01-29T21:01:03.884Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6db0ccc79d60c03aa4633",
+      "date_created": "2023-01-29T20:46:04.019Z",
+      "name": "מערכת החשמל",
+      "position": 9,
+      "date_updated": "2023-01-29T20:59:08.739Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dbd2cc79d60c03aa4634",
+      "date_created": "2023-01-29T20:49:22.201Z",
+      "name": "מערכת העברת הכוח",
+      "position": 10,
+      "date_updated": "2023-01-29T20:59:09.390Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dc99cc79d60c03aa4635",
+      "date_created": "2023-01-29T20:52:41.698Z",
+      "name": "מחוונים",
+      "position": 11,
+      "date_updated": "2023-01-29T20:53:59.878Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dce9cc79d60c03aa4636",
+      "date_created": "2023-01-29T20:54:01.143Z",
+      "name": "הערות",
+      "position": 12,
+      "date_updated": "2023-01-29T20:54:40.137Z",
+      "hasPriorities": false,
+      "results": []
+    }
+  ],
+  "date_created": {
+    "$date": {
+      "$numberLong": "1680915373204"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6430c44ec26ddf078c3f1e1b"
+  },
+  "inspectionNumber": "1004",
+  "customerName": "werwer",
+  "customerAddress": "42342",
+  "customerPhone": "23423",
+  "carNumber": "2343",
+  "carModel": "423423",
+  "carYear": 3423,
+  "engineNumber": "23423",
+  "chassisNumber": "234234",
+  "chassisType": "שלדת מרכב",
+  "kilometrage": 4234,
+  "tester": {
+    "name": "wewe",
+    "code": "333"
+  },
+  "electronicsIncluded": false,
+  "results": [
+    {
+      "_id": "63d5971dcc79d60c03aa4629",
+      "date_created": "2023-01-28T21:43:57.302Z",
+      "name": "מערכת המנוע",
+      "position": 1,
+      "date_updated": "2023-01-29T20:11:44.281Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d301cc79d60c03aa462c",
+      "date_created": "2023-01-29T20:11:45.377Z",
+      "name": "מערכת הקירור",
+      "position": 2,
+      "date_updated": "2023-01-29T20:19:00.705Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d4b5cc79d60c03aa462d",
+      "date_created": "2023-01-29T20:19:01.868Z",
+      "name": "מערכת הדלק",
+      "position": 3,
+      "date_updated": "2023-01-29T20:20:31.944Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d505cc79d60c03aa462e",
+      "date_created": "2023-01-29T20:20:21.065Z",
+      "name": "מערכת ההצתה",
+      "position": 4,
+      "date_updated": "2023-01-29T20:21:16.762Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d541cc79d60c03aa462f",
+      "date_created": "2023-01-29T20:21:21.322Z",
+      "name": "מערכת הפליטה",
+      "position": 5,
+      "date_updated": "2023-01-29T20:22:20.432Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d57dcc79d60c03aa4630",
+      "date_created": "2023-01-29T20:22:21.833Z",
+      "name": "מערכת ההיגוי וסרן",
+      "position": 6,
+      "date_updated": "2023-01-29T20:26:57.802Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d693cc79d60c03aa4631",
+      "date_created": "2023-01-29T20:26:59.113Z",
+      "name": "שלדת מרכב",
+      "position": 7,
+      "date_updated": "2023-01-29T20:58:57.082Z",
+      "hasPriorities": true,
+      "results": []
+    },
+    {
+      "_id": "63d6da00cc79d60c03aa4632",
+      "date_created": "2023-01-29T20:41:36.823Z",
+      "name": "שלדה נפרדת",
+      "position": 8,
+      "date_updated": "2023-01-29T21:01:03.884Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6db0ccc79d60c03aa4633",
+      "date_created": "2023-01-29T20:46:04.019Z",
+      "name": "מערכת החשמל",
+      "position": 9,
+      "date_updated": "2023-01-29T20:59:08.739Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dbd2cc79d60c03aa4634",
+      "date_created": "2023-01-29T20:49:22.201Z",
+      "name": "מערכת העברת הכוח",
+      "position": 10,
+      "date_updated": "2023-01-29T20:59:09.390Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dc99cc79d60c03aa4635",
+      "date_created": "2023-01-29T20:52:41.698Z",
+      "name": "מחוונים",
+      "position": 11,
+      "date_updated": "2023-01-29T20:53:59.878Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dce9cc79d60c03aa4636",
+      "date_created": "2023-01-29T20:54:01.143Z",
+      "name": "הערות",
+      "position": 12,
+      "date_updated": "2023-01-29T20:54:40.137Z",
+      "hasPriorities": false,
+      "results": []
+    }
+  ],
+  "date_created": {
+    "$date": {
+      "$numberLong": "1680917582306"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643a09549baa282628a52083"
+  },
+  "inspectionNumber": "1005",
+  "customerName": "asdasdasdasdasd",
+  "customerAddress": "1231231231",
+  "customerPhone": "23123123",
+  "carNumber": "232323",
+  "carModel": "2312312",
+  "carYear": 3123,
+  "engineNumber": "1312323",
+  "chassisNumber": "23123123",
+  "chassisType": "שלדת מרכב",
+  "kilometrage": 1231231,
+  "tester": {
+    "name": "מארק",
+    "code": "777"
+  },
+  "electronicsIncluded": false,
+  "results": [
+    {
+      "_id": "63d5971dcc79d60c03aa4629",
+      "date_created": "2023-01-28T21:43:57.302Z",
+      "name": "מערכת המנוע",
+      "position": 1,
+      "date_updated": "2023-01-29T20:11:44.281Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "רעש מערכת שסתומים",
+          "priority": null
+        },
+        {
+          "name": "רעש מערכת תזמון ושסתומים",
+          "priority": null
+        },
+        {
+          "name": "qweqweqwe",
+          "priority": null
+        },
+        {
+          "name": "רעשים במנוע",
+          "priority": null
+        },
+        {
+          "name": "asdfsdfsdfdf",
+          "priority": null
+        },
+        {
+          "name": "asdfsd",
+          "priority": null
+        },
+        {
+          "name": "f",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d301cc79d60c03aa462c",
+      "date_created": "2023-01-29T20:11:45.377Z",
+      "name": "מערכת הקירור",
+      "position": 2,
+      "date_updated": "2023-01-29T20:19:00.705Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "dfsdfsdfdsf",
+          "priority": null
+        },
+        {
+          "name": "sdfsdfsdf",
+          "priority": null
+        },
+        {
+          "name": "sdfsdfsdf",
+          "priority": null
+        },
+        {
+          "name": "ssdfsdfdsf",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d4b5cc79d60c03aa462d",
+      "date_created": "2023-01-29T20:19:01.868Z",
+      "name": "מערכת הדלק",
+      "position": 3,
+      "date_updated": "2023-01-29T20:20:31.944Z",
+      "hasPriorities": false,
+      "results": [
+        {
+          "name": "sdfsdfsdfsdfsdf",
+          "priority": null
+        },
+        {
+          "name": "sdsdfsdf",
+          "priority": null
+        },
+        {
+          "name": "sdsdfsdfsdfsdf",
+          "priority": null
+        }
+      ]
+    },
+    {
+      "_id": "63d6d505cc79d60c03aa462e",
+      "date_created": "2023-01-29T20:20:21.065Z",
+      "name": "מערכת ההצתה",
+      "position": 4,
+      "date_updated": "2023-01-29T20:21:16.762Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d541cc79d60c03aa462f",
+      "date_created": "2023-01-29T20:21:21.322Z",
+      "name": "מערכת הפליטה",
+      "position": 5,
+      "date_updated": "2023-01-29T20:22:20.432Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d57dcc79d60c03aa4630",
+      "date_created": "2023-01-29T20:22:21.833Z",
+      "name": "מערכת ההיגוי וסרן",
+      "position": 6,
+      "date_updated": "2023-01-29T20:26:57.802Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6d693cc79d60c03aa4631",
+      "date_created": "2023-01-29T20:26:59.113Z",
+      "name": "שלדת מרכב",
+      "position": 7,
+      "date_updated": "2023-01-29T20:58:57.082Z",
+      "hasPriorities": true,
+      "results": [
+        {
+          "name": "asdasdasd",
+          "priority": "ש:"
+        },
+        {
+          "name": "adasdasdasd",
+          "priority": "ש:"
+        },
+        {
+          "name": "asasdasdasd",
+          "priority": "ש:"
+        },
+        {
+          "name": "asdasdasdasd",
+          "priority": "נ:"
+        },
+        {
+          "name": "asdasdasdasd",
+          "priority": "ש:"
+        },
+        {
+          "name": "asdasdasdasd",
+          "priority": "ג:"
+        },
+        {
+          "name": "asdasdasdasd",
+          "priority": "ג:"
+        }
+      ]
+    },
+    {
+      "_id": "63d6db0ccc79d60c03aa4633",
+      "date_created": "2023-01-29T20:46:04.019Z",
+      "name": "מערכת החשמל",
+      "position": 9,
+      "date_updated": "2023-01-29T20:59:08.739Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dbd2cc79d60c03aa4634",
+      "date_created": "2023-01-29T20:49:22.201Z",
+      "name": "מערכת העברת הכוח",
+      "position": 10,
+      "date_updated": "2023-01-29T20:59:09.390Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dc99cc79d60c03aa4635",
+      "date_created": "2023-01-29T20:52:41.698Z",
+      "name": "מחוונים",
+      "position": 11,
+      "date_updated": "2023-01-29T20:53:59.878Z",
+      "hasPriorities": false,
+      "results": []
+    },
+    {
+      "_id": "63d6dce9cc79d60c03aa4636",
+      "date_created": "2023-01-29T20:54:01.143Z",
+      "name": "הערות",
+      "position": 12,
+      "date_updated": "2023-01-29T20:54:40.137Z",
+      "hasPriorities": false,
+      "results": []
+    }
+  ],
+  "date_created": {
+    "$date": {
+      "$numberLong": "1681525076858"
+    }
+  },
+  "__v": 0
+}]
