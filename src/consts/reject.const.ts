@@ -26,4 +26,5 @@ export type RejectPDFResult = Pick<
   lowPriorityRejects?: string;
   midPriorityRejects?: string;
   highPriorityRejects?: string;
+  passed?: boolean;
 };

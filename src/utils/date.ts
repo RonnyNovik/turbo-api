@@ -1,3 +1,5 @@
+const LOCALE = 'he-IL';
+
 export const formatDateAndHourFromISODate = (isoDate: string): string => {
   const date = new Date(isoDate);
   const hours = date.getUTCHours().toString().padStart(2, '0');

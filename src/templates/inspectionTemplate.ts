@@ -305,6 +305,7 @@ export const inspectionTemplate = `<!DOCTYPE html>
 						<h6 class="result index">{{this.position}}.</h6>
 						<h6 class="result system">{{this.name}}</h6>
 						<h6 class="result passed">
+						{{#if this.passed}} ✔ {{/if}}
 						</h6>
 						<h6 class="result failed">
 						</h6>

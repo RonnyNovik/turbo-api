@@ -41,10 +41,11 @@ const formatSystemForPdfTemplate = (system: RejectOption, index: number) => {
 
   if (system.hasPriorities) {
     const prioritizedRejects = createPrioritizedRejectsForPdf(system);
-
+    const passed = !Object.values(prioritizedRejects).length;
     formattedSystem = {
       ...formattedSystem,
       ...prioritizedRejects,
+      passed,
     };
 
     return formattedSystem;
