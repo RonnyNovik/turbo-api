@@ -14,6 +14,7 @@ import { LocalStrategy } from './strategies/local.strategy';
     PassportModule,
     JwtModule.registerAsync({
       useFactory: async () => {
+        console.log(process.env.JWT_SECRET_KEY);
         return {
           secret: process.env.JWT_SECRET_KEY,
           signOptions: { expiresIn: process.env.JWT_EXPIRATION_DURATION },
