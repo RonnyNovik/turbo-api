@@ -7,6 +7,7 @@ import { InspectionsModule } from './inspections/inspections.module';
 import { SettingsModule } from './settings/settings.module';
 import { SystemsModule } from './systems/systems.module';
 
+console.log(process.env.JWT_SECRET_KEY);
 @Module({
   imports: [
     ConfigModule.forRoot({ envFilePath: `.env`, isGlobal: true }),
