@@ -1,5 +1,0 @@
-#!/bin/bash
-cd /path/to/your/nest/app    # Replace '/path/to/your/nest/app' with the actual path to your Nest app's root directory
-n#!/bin/bash
-cd /path/to/your/nest/app    # Replace '/path/to/your/nest/app' with the actual path to your Nest app's root directory
-npx ts-node -r tsconfig-paths/register main.tspx ts-node -r tsconfig-paths/register main.ts
