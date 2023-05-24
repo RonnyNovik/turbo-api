@@ -2,6 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'api',
+      interpreter: './node_modules/.bin/ts-node',
       script: './src/main.ts',
       node_args: '-r esm',
       watch: ['./src/'],
