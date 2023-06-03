@@ -3,6 +3,7 @@ module.exports = {
     {
       name: 'api',
       script: './dist/main.js',
+      instances: 1,
       exec_mode: 'cluster',
       watch_options: {
         persistent: true,
