@@ -18,8 +18,14 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "docker:run:db": "docker run -d --network supertest_network -p 27017:27017 -it --restart unless-stopped --name supertest-db supertest-db --bind_ip_all",
+    "docker:run:api": "docker run -d --network supertest_network -p 3002:3002 -it --restart unless-stopped --name supertest-api supertest-api",
+    "docker:build:db": "docker build -t supertest-db -f ./db/Dockerfile ./db",
+    "docker:build:api": "docker build -t supertest-api .",
+    "docker:deploy:db": "npm run docker:build:db && npm run docker:run:db",
+    "docker:deploy:api": "npm run build && npm run docker:build:api && npm run docker:run:api"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
@@ -37,6 +43,7 @@
     "forever": "^4.0.3",
     "handlebars": "^4.7.7",
     "html-pdf-node": "^1.0.8",
+    "luxon": "^3.3.0",
     "mongoose": "^7.0.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",

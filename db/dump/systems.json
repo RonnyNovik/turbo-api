@@ -1,0 +1,988 @@
+[
+  {
+    "_id": { "$oid": "63d5971dcc79d60c03aa4629" },
+    "date_created": { "$date": { "$numberLong": "1674942237302" } },
+    "name": " מנוע",
+    "rejects": [
+      {
+        "name": "בלאי פנימי גבוה",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "רעש מערכת שסתומים",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "רעש מערכת תזמון",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "רעש מערכת תזמון ושסתומים",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "רעשים במנוע",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "רעשים ונקישות פנימיים",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      },
+      {
+        "name": "חוסר שמן במנוע",
+        "position": { "$numberInt": "6" },
+        "priority": null
+      },
+      {
+        "name": "נזילות שמן",
+        "position": { "$numberInt": "7" },
+        "priority": null
+      },
+      {
+        "name": "שריפות שמן ממובילי שסתומים",
+        "position": { "$numberInt": "8" },
+        "priority": null
+      },
+      {
+        "name": "מנוע שורף שמן",
+        "position": { "$numberInt": "9" },
+        "priority": null
+      },
+      {
+        "name": "לחץ עוקה גבוה (מבלאי)",
+        "position": { "$numberInt": "10" },
+        "priority": null
+      },
+      {
+        "name": "צינור נשם מנותק",
+        "position": { "$numberInt": "11" },
+        "priority": null
+      },
+      {
+        "name": "מעבר לחץ למערכת קירור",
+        "position": { "$numberInt": "12" },
+        "priority": null
+      },
+      {
+        "name": "נוזל קירור בשמן",
+        "position": { "$numberInt": "13" },
+        "priority": null
+      },
+      {
+        "name": "תושבות מנוע פגומות",
+        "position": { "$numberInt": "14" },
+        "priority": null
+      },
+      {
+        "name": "מדיד שמן פגום",
+        "position": { "$numberInt": "15" },
+        "priority": null
+      },
+      {
+        "name": "מעיכות אגן שמן",
+        "position": { "$numberInt": "16" },
+        "priority": null
+      },
+      {
+        "name": "לחץ שמן נמוך",
+        "position": { "$numberInt": "17" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "1" },
+    "date_updated": { "$date": { "$numberLong": "1675023104281" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d301cc79d60c03aa462c" },
+    "date_created": { "$date": { "$numberLong": "1675023105377" } },
+    "name": "מערכת הקירור מנוע",
+    "rejects": [
+      {
+        "name": "נזילות מים ממצנן",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "רשת מצנן פגומה",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מיכל עיבוי פגום",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "התחממות יתר במנוע",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "קורוזיה וסימני נזילה בחיבורים",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "נזילות מים",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      },
+      {
+        "name": "צינורות מים פגומים",
+        "position": { "$numberInt": "6" },
+        "priority": null
+      },
+      {
+        "name": "פקקי מים נוזלים",
+        "position": { "$numberInt": "7" },
+        "priority": null
+      },
+      {
+        "name": "נזילה ממשאבת מים",
+        "position": { "$numberInt": "8" },
+        "priority": null
+      },
+      {
+        "name": "רעש ממשאבת מים",
+        "position": { "$numberInt": "9" },
+        "priority": null
+      },
+      {
+        "name": "מערכת חימום לקויה / מקולקלת",
+        "position": { "$numberInt": "10" },
+        "priority": null
+      },
+      {
+        "name": "כונס אויר פגום",
+        "position": { "$numberInt": "11" },
+        "priority": null
+      },
+      {
+        "name": "מערכת קירור לא תקינה",
+        "position": { "$numberInt": "12" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "2" },
+    "date_updated": { "$date": { "$numberLong": "1675023540705" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d4b5cc79d60c03aa462d" },
+    "date_created": { "$date": { "$numberLong": "1675023541868" } },
+    "name": "מערכת דלק וגידוש מנוע (טורבו)",
+    "rejects": [
+      {
+        "name": "נזילה במיכל הדלק",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "ריח דלק בתא הנוסעים",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "סיבובי מנוע לא יציבים",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "מגדש טורבו לא תקין",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "נזילת שמן ממגדש טורבו",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "3" },
+    "date_updated": { "$date": { "$numberLong": "1675023631944" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d505cc79d60c03aa462e" },
+    "date_created": { "$date": { "$numberLong": "1675023621065" } },
+    "name": "מערכת ההצתה",
+    "rejects": [
+      {
+        "name": "לתאם מנוע",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "מנוע מזייף",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מנוע נכבה",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "התנעה קשה",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "מתג התנעה פגום",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "4" },
+    "date_updated": { "$date": { "$numberLong": "1675023676762" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d541cc79d60c03aa462f" },
+    "date_created": { "$date": { "$numberLong": "1675023681322" } },
+    "name": "מערכת הפליטה ומערכות למניעת זיהום אוויר",
+    "rejects": [
+      {
+        "name": "דוד עמעם אחורי פגום",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "דוד עמעם מרכזי פגום",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מתלים פגומים",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "סעפת סדוקה",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "מערכת פליטה רועשת",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "ממיר קטליטי לא תקין / לא נמצא",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "5" },
+    "date_updated": { "$date": { "$numberLong": "1675023740432" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d57dcc79d60c03aa4630" },
+    "date_created": { "$date": { "$numberLong": "1675023741833" } },
+    "name": "מערכת ההיגוי",
+    "rejects": [
+      {
+        "name": "סטיות הגה (בנסיעה)",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "רעידות בגלגלים",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "חופש ונקישה בתיבת ההגה",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "גומיות מגן להגה פגומות",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "נזילת שמן במערכת הידראולית",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "חופש במערכת היגוי",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      },
+      {
+        "name": "הגה קשה ולא חוזר",
+        "position": { "$numberInt": "6" },
+        "priority": null
+      },
+      {
+        "name": "נקישות במתלה",
+        "position": { "$numberInt": "7" },
+        "priority": null
+      },
+      {
+        "name": "חריקות במתלה",
+        "position": { "$numberInt": "8" },
+        "priority": null
+      },
+      {
+        "name": "גשר קדמי עקום / ניזוק",
+        "position": { "$numberInt": "9" },
+        "priority": null
+      },
+      {
+        "name": "גשר אחורי עקום / ניזוק",
+        "position": { "$numberInt": "10" },
+        "priority": null
+      },
+      {
+        "name": "חופש מסבי גלגלים",
+        "position": { "$numberInt": "11" },
+        "priority": null
+      },
+      {
+        "name": "חופש תותבים ציר קדמי",
+        "position": { "$numberInt": "12" },
+        "priority": null
+      },
+      {
+        "name": "מסבי גלגלים רועשים",
+        "position": { "$numberInt": "13" },
+        "priority": null
+      },
+      {
+        "name": "גלגל ההגה אינו ממורכז",
+        "position": { "$numberInt": "14" },
+        "priority": null
+      },
+      {
+        "name": "רצועות מגן קרועות / פגומות",
+        "position": { "$numberInt": "15" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "6" },
+    "date_updated": { "$date": { "$numberLong": "1675024017802" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6d693cc79d60c03aa4631" },
+    "date_created": { "$date": { "$numberLong": "1675024019113" } },
+    "name": "שלדה נפרדת",
+    "rejects": [
+      {
+        "name": "עמודים-אמצעי-קדמי-אחורי",
+        "position": { "$numberInt": "0" },
+        "priority": "ג:"
+      },
+      {
+        "name": "פח חזית כולל גשר חזיל עליון מולחם",
+        "position": { "$numberInt": "1" },
+        "priority": "ג:"
+      },
+      {
+        "name": "דופן פנימית בתא מנוע",
+        "position": { "$numberInt": "2" },
+        "priority": "ג:"
+      },
+      {
+        "name": "קורה אורכית מעבר לתושבת רתום המתלה / מנוע",
+        "position": { "$numberInt": "3" },
+        "priority": "ג:"
+      },
+      {
+        "name": "קורת רוחב מעבר לתושבת רתום המתלה / מנוע",
+        "position": { "$numberInt": "4" },
+        "priority": "ג:"
+      },
+      { "name": "קיר אש", "position": { "$numberInt": "5" }, "priority": "ג:" },
+      {
+        "name": "פח דופן אחורי",
+        "position": { "$numberInt": "6" },
+        "priority": "ג:"
+      },
+      {
+        "name": "כנף אחורי מולחמת",
+        "position": { "$numberInt": "7" },
+        "priority": "ג:"
+      },
+      {
+        "name": "פח חזית מולחם",
+        "position": { "$numberInt": "8" },
+        "priority": "ג:"
+      },
+      {
+        "name": "חיבורים לא מקוריים לרוחב הרכב",
+        "position": { "$numberInt": "9" },
+        "priority": "ג:"
+      },
+      {
+        "name": "מכסה מנוע",
+        "position": { "$numberInt": "10" },
+        "priority": "נ:"
+      },
+      {
+        "name": "דלתות קדמיות ימין או שמאל",
+        "position": { "$numberInt": "11" },
+        "priority": "נ:"
+      },
+      {
+        "name": "רצפה אחורית בחלק סמוך לפגוש",
+        "position": { "$numberInt": "12" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורה אורכית קדמית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "13" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורה אורכית אחורית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "14" },
+        "priority": "ש:"
+      },
+      {
+        "name": "כנף אחורית ימנית / שמאלית מולחמת",
+        "position": { "$numberInt": "15" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח דופן אחורית",
+        "position": { "$numberInt": "16" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורת רוחב אחורית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "17" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח סף חיצוני",
+        "position": { "$numberInt": "18" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח חזית מולחם",
+        "position": { "$numberInt": "19" },
+        "priority": "נ:"
+      },
+      {
+        "name": "חדירת מים לתא הנוסעים או תא המטען",
+        "position": { "$numberInt": "20" },
+        "priority": "נ:"
+      },
+      {
+        "name": "חסר פינות לפגוש",
+        "position": { "$numberInt": "21" },
+        "priority": "ש:"
+      },
+      {
+        "name": "חגורת בטיחות פגומה",
+        "position": { "$numberInt": "22" },
+        "priority": "ש:"
+      },
+      {
+        "name": "פתיחת מכסה מנוע לקויה",
+        "position": { "$numberInt": "23" },
+        "priority": "ש:"
+      },
+      {
+        "name": "פתיחת תא מטען לקויה",
+        "position": { "$numberInt": "24" },
+        "priority": "ש:"
+      },
+      {
+        "name": "תומך מכסה מנוע פגום",
+        "position": { "$numberInt": "25" },
+        "priority": "ש:"
+      },
+      {
+        "name": "דלתות אינם מכוונות",
+        "position": { "$numberInt": "26" },
+        "priority": "ש:"
+      },
+      {
+        "name": "חופש צירים בדלתות",
+        "position": { "$numberInt": "27" },
+        "priority": "ש:"
+      },
+      {
+        "name": "עצר ביטחון לדלת",
+        "position": { "$numberInt": "28" },
+        "priority": "ש:"
+      },
+      {
+        "name": "ריפוד פגום",
+        "position": { "$numberInt": "29" },
+        "priority": "ש:"
+      },
+      {
+        "name": "שמשה פגומה",
+        "position": { "$numberInt": "30" },
+        "priority": "ש:"
+      }
+    ],
+    "position": { "$numberInt": "7" },
+    "date_updated": { "$date": { "$numberLong": "1675025937082" } },
+    "hasPriorities": true
+  },
+  {
+    "_id": { "$oid": "63d6da00cc79d60c03aa4632" },
+    "date_created": { "$date": { "$numberLong": "1675024896823" } },
+    "name": "שלדת מרכב",
+    "rejects": [
+      {
+        "name": "עמודים-אמצעי-קדמי-אחורי",
+        "position": { "$numberInt": "0" },
+        "priority": "ג:"
+      },
+      {
+        "name": "פח חזית כולל גשר חזיל עליון מולחם",
+        "position": { "$numberInt": "1" },
+        "priority": "ג:"
+      },
+      {
+        "name": "דופן פנימית בתא מנוע",
+        "position": { "$numberInt": "2" },
+        "priority": "ג:"
+      },
+      {
+        "name": "קורה אורכית מעבר לתושבת רתום המתלה / מנוע",
+        "position": { "$numberInt": "3" },
+        "priority": "ג:"
+      },
+      {
+        "name": "קורת רוחב מעבר לתושבת רתום המתלה / מנוע",
+        "position": { "$numberInt": "4" },
+        "priority": "ג:"
+      },
+      { "name": "קיר אש", "position": { "$numberInt": "5" }, "priority": "ג:" },
+      {
+        "name": "פח דופן אחורי",
+        "position": { "$numberInt": "6" },
+        "priority": "ג:"
+      },
+      {
+        "name": "כנף אחורי מולחמת",
+        "position": { "$numberInt": "7" },
+        "priority": "ג:"
+      },
+      {
+        "name": "פח חזית מולחם",
+        "position": { "$numberInt": "8" },
+        "priority": "ג:"
+      },
+      {
+        "name": "חיבורים לא מקוריים לרוחב הרכב",
+        "position": { "$numberInt": "9" },
+        "priority": "ג:"
+      },
+      {
+        "name": "מכסה מנוע",
+        "position": { "$numberInt": "10" },
+        "priority": "נ:"
+      },
+      {
+        "name": "דלתות קדמיות ימין או שמאל",
+        "position": { "$numberInt": "11" },
+        "priority": "נ:"
+      },
+      {
+        "name": "רצפה אחורית בחלק סמוך לפגוש",
+        "position": { "$numberInt": "12" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורה אורכית קדמית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "13" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורה אורכית אחורית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "14" },
+        "priority": "נ:"
+      },
+      {
+        "name": "כנף אחורית ימנית / שמאלית מולחמת",
+        "position": { "$numberInt": "15" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח דופן אחורית",
+        "position": { "$numberInt": "16" },
+        "priority": "נ:"
+      },
+      {
+        "name": "קורת רוחב אחורית עד לנקודת רתום המתלה / מנוע",
+        "position": { "$numberInt": "17" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח סף חיצוני",
+        "position": { "$numberInt": "18" },
+        "priority": "נ:"
+      },
+      {
+        "name": "פח חזית מולחם",
+        "position": { "$numberInt": "19" },
+        "priority": "נ:"
+      },
+      {
+        "name": "חדירת מים לתא הנוסעים או תא המטען",
+        "position": { "$numberInt": "20" },
+        "priority": "נ:"
+      },
+      {
+        "name": "חסר פינות לפגוש",
+        "position": { "$numberInt": "21" },
+        "priority": "ש:"
+      },
+      {
+        "name": "חגורת בטיחות פגומה",
+        "position": { "$numberInt": "22" },
+        "priority": "ש:"
+      },
+      {
+        "name": "פתיחת מכסה מנוע לקויה",
+        "position": { "$numberInt": "23" },
+        "priority": "ש:"
+      },
+      {
+        "name": "פתיחת תא מטען לקויה",
+        "position": { "$numberInt": "24" },
+        "priority": "ש:"
+      },
+      {
+        "name": "תומך מכסה מנוע פגום",
+        "position": { "$numberInt": "25" },
+        "priority": "ש:"
+      },
+      {
+        "name": "דלתות אינם מכוונות",
+        "position": { "$numberInt": "26" },
+        "priority": "ש:"
+      },
+      {
+        "name": "חופש צירים בדלתות",
+        "position": { "$numberInt": "27" },
+        "priority": "ש:"
+      },
+      {
+        "name": "עצר ביטחון לדלת",
+        "position": { "$numberInt": "28" },
+        "priority": "ש:"
+      },
+      {
+        "name": "ריפוד פגום",
+        "position": { "$numberInt": "29" },
+        "priority": "ש:"
+      },
+      {
+        "name": "שמשה פגומה",
+        "position": { "$numberInt": "30" },
+        "priority": "ש:"
+      }
+    ],
+    "position": { "$numberInt": "8" },
+    "date_updated": { "$date": { "$numberLong": "1675026063884" } },
+    "hasPriorities": true
+  },
+  {
+    "_id": { "$oid": "63d6db0ccc79d60c03aa4633" },
+    "date_created": { "$date": { "$numberLong": "1675025164019" } },
+    "name": "מערכת בלמים (ללא פירוק גלגלים)",
+    "rejects": [
+      {
+        "name": "תאריך יצור המצבר",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "אין תאריך יצור על המצבר",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מצבר חלש",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "מצבר פגום",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "מתנע פגום - רועש",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "אלטרנטור רועש",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      },
+      {
+        "name": "פנסים פגומים",
+        "position": { "$numberInt": "6" },
+        "priority": null
+      },
+      {
+        "name": "פנסי חזית פגומים",
+        "position": { "$numberInt": "7" },
+        "priority": null
+      },
+      {
+        "name": "פנסים אחוריים פגומים",
+        "position": { "$numberInt": "8" },
+        "priority": null
+      },
+      {
+        "name": "לתקן מערכת איתות",
+        "position": { "$numberInt": "9" },
+        "priority": null
+      },
+      {
+        "name": "מזגן אוויר אינו תקין",
+        "position": { "$numberInt": "10" },
+        "priority": null
+      },
+      {
+        "name": "הפעלת חלונות חשמל לקויה",
+        "position": { "$numberInt": "11" },
+        "priority": null
+      },
+      {
+        "name": "נעילת הדלתות אינה תקינה",
+        "position": { "$numberInt": "12" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "9" },
+    "date_updated": { "$date": { "$numberLong": "1675025948739" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6dbd2cc79d60c03aa4634" },
+    "date_created": { "$date": { "$numberLong": "1675025362201" } },
+    "name": "צמיגים וחישוקים",
+    "rejects": [
+      {
+        "name": "מצמד מפריד גבוה (בלאי)",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "מצמד קשה",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מסב לחץ רועש",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "גומיות מגן לציריות פגומות",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "חופש ונקישות בציריות",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "קופלונג גל - הינע פגום",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      },
+      {
+        "name": "חופש תושבת גל ההינע",
+        "position": { "$numberInt": "6" },
+        "priority": null
+      },
+      {
+        "name": "נזילת שמן בדיפרנציאל",
+        "position": { "$numberInt": "7" },
+        "priority": null
+      },
+      {
+        "name": "מערכת 4X4 אינה פועלת",
+        "position": { "$numberInt": "8" },
+        "priority": null
+      },
+      {
+        "name": "שמן כהה בלאי דסקיות הילוכים",
+        "position": { "$numberInt": "9" },
+        "priority": null
+      },
+      {
+        "name": "החלפת הילוכים לקויה",
+        "position": { "$numberInt": "10" },
+        "priority": null
+      },
+      {
+        "name": "נקישה בשילוב הילוכים",
+        "position": { "$numberInt": "11" },
+        "priority": null
+      },
+      {
+        "name": "החלקה בתאוצה",
+        "position": { "$numberInt": "12" },
+        "priority": null
+      },
+      {
+        "name": "רעידות בתאוצה",
+        "position": { "$numberInt": "13" },
+        "priority": null
+      },
+      {
+        "name": "נזילת שמן תיבת ההילוכים",
+        "position": { "$numberInt": "14" },
+        "priority": null
+      },
+      {
+        "name": "תושבת תיבת הילוכים פגומה",
+        "position": { "$numberInt": "15" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "10" },
+    "date_updated": { "$date": { "$numberLong": "1675025949390" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6dc99cc79d60c03aa4635" },
+    "date_created": { "$date": { "$numberLong": "1675025561698" } },
+    "name": "מערכת הנעה ומערכת הטעינה",
+    "rejects": [
+      {
+        "name": "מד חום פגום",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "מד דלק פגום",
+        "position": { "$numberInt": "1" },
+        "priority": null
+      },
+      {
+        "name": "מד מהירות פגום",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      },
+      {
+        "name": "מונה ק\"מ פגום",
+        "position": { "$numberInt": "3" },
+        "priority": null
+      },
+      {
+        "name": "מד סיבובי מנוע פגום",
+        "position": { "$numberInt": "4" },
+        "priority": null
+      },
+      {
+        "name": "לוח מחוונים פגום",
+        "position": { "$numberInt": "5" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "11" },
+    "date_updated": { "$date": { "$numberLong": "1675025639878" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "63d6dce9cc79d60c03aa4636" },
+    "date_created": { "$date": { "$numberLong": "1675025641143" } },
+    "name": "מערכת חשמל ,מערכת התנעה (כולל מצבר)",
+    "rejects": [
+      {
+        "name": "לבדוק תצרוכת שמן בנסיעה",
+        "position": { "$numberInt": "0" },
+        "priority": null
+      },
+      {
+        "name": "מנוע לאחר תיקון",
+        "position": { "$numberInt": "2" },
+        "priority": null
+      }
+    ],
+    "position": { "$numberInt": "12" },
+    "date_updated": { "$date": { "$numberLong": "1675025680137" } },
+    "hasPriorities": false
+  },
+  {
+    "_id": { "$oid": "646104a3d95f50e87643a739" },
+    "name": "מערכת תאורה",
+    "hasPriorities": false,
+    "position": { "$numberInt": "13" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "646104e8d95f50e87643a73e" },
+    "name": "מצמד",
+    "hasPriorities": false,
+    "position": { "$numberInt": "14" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "6461055dd95f50e87643a743" },
+    "name": "תיבת הילוכים",
+    "hasPriorities": false,
+    "position": { "$numberInt": "15" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "64610581d95f50e87643a748" },
+    "name": "תיבת  עברת הכוח",
+    "hasPriorities": false,
+    "position": { "$numberInt": "16" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "646105a3d95f50e87643a74d" },
+    "name": "ציריות \\ גל הינע",
+    "hasPriorities": false,
+    "position": { "$numberInt": "17" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "646105ecd95f50e87643a752" },
+    "name": "מערכת חשמל",
+    "hasPriorities": false,
+    "position": { "$numberInt": "18" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "64610682d95f50e87643a757" },
+    "name": "שילדת מרכב",
+    "hasPriorities": false,
+    "position": { "$numberInt": "19" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "6461091ad95f50e87643a76a" },
+    "name": "הערות כלליות",
+    "hasPriorities": false,
+    "position": { "$numberInt": "20" },
+    "rejects": [],
+    "__v": { "$numberInt": "0" }
+  }
+]

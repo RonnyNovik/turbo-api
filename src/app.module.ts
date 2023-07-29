@@ -7,11 +7,13 @@ import { InspectionsModule } from './inspections/inspections.module';
 import { SettingsModule } from './settings/settings.module';
 import { SystemsModule } from './systems/systems.module';
 
-console.log(process.env.JWT_SECRET_KEY);
 @Module({
   imports: [
     ConfigModule.forRoot({ envFilePath: `.env`, isGlobal: true }),
-    MongooseModule.forRoot('mongodb://localhost:27017/supertest'),
+    MongooseModule.forRoot('mongodb://172.20.0.2:27017/supertest', {
+      retryAttempts: 1,
+      retryDelay: 1000,
+    }),
     InspectionsModule,
     SettingsModule,
     AuthModule,

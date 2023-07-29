@@ -8,9 +8,9 @@ import { analyticsTemplate } from 'src/templates';
 import { inspectionTemplate } from 'src/templates';
 
 import {
-  formatDateAndHourFromISODate,
-  formatDateFromISODate,
-  formatHourFromISODate,
+  formatDateAndHourFromISO,
+  formatDateFromISO,
+  formatHourFromISO,
 } from './date';
 import { formatParenthesesInCarSystem } from './textFormatting';
 
@@ -59,19 +59,14 @@ const formatSystemForPdfTemplate = (system: RejectOption, index: number) => {
 };
 
 const parseInspectionForPdfTemplate = (inspection, settings) => {
-  const date_created = formatDateAndHourFromISODate(inspection.date_created);
-
+  const date_created = formatDateAndHourFromISO(inspection.date_created);
   const postInspectionText = settings.postInspectionText;
-
   const signatureTermsText = settings.signatureTermsText
     .replace(
       '{{בוחן}}',
       `${inspection.tester.name} (${inspection.tester.code})`,
     )
-    .replace(
-      '{{תאריך}}',
-      formatDateAndHourFromISODate(inspection.date_created),
-    );
+    .replace('{{תאריך}}', date_created);
 
   const results = inspection.results.map(
     (system: RejectOption, index: number) => {
@@ -97,7 +92,16 @@ const compilePdfFromTemplate = async (template: string, data) => {
 };
 
 const createPdfFileStream = async (html: string) => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    executablePath: '/usr/bin/google-chrome',
+    headless: true,
+    args: [
+      '--disable-gpu',
+      '--disable-dev-shm-usage',
+      '--disable-setuid-sandbox',
+      '--no-sandbox',
+    ],
+  });
   const page = await browser.newPage();
   const stream = new Readable();
 
@@ -145,8 +149,8 @@ const parseInspectionAnalyticsForPdfTemplate = (inspections) => {
       tester: `${tester.name} (${tester.code})`,
       carNumber,
       customerName,
-      date_created: formatDateFromISODate(date_created),
-      hour: formatHourFromISODate(date_created),
+      date_created: formatDateFromISO(date_created),
+      hour: formatHourFromISO(date_created),
     }),
   );
 };
@@ -157,8 +161,8 @@ export const createPdfStreamFromInspectionAnalytics = async (
   endDate,
 ) => {
   const parsedAnalytics = {
-    startDate: formatDateFromISODate(startDate),
-    endDate: formatDateFromISODate(endDate),
+    startDate: formatDateFromISO(startDate),
+    endDate: formatDateFromISO(endDate),
     inspections: parseInspectionAnalyticsForPdfTemplate(inspections),
   };
 
